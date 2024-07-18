@@ -26,9 +26,9 @@ SpringBoot MVC패턴 기반의 풀스택 여행 테마 소셜 미디어 웹 사�
 ![](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
 
-#기능 소개
+# 기능 소개
 - 게시글 작성/수정/삭제/보기
 - 지도 검색/카테고리별 장소 표시
 - 숏폼 작성/수정/삭제/보기
-- 회원 가입/탈퇴
-- 관리자 기능
+- 회원 가입/탈퇴/팔로우/팔로우 알림
+- 관리자 페이지
