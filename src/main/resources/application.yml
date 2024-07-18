@@ -1,0 +1,46 @@
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      location: /postImg
+      max-file-size: 100MB
+      max-request-size: 100MB
+  mail:
+    # Google smtp server 사용
+    host: smtp.gmail.com
+    port: 587
+    username: kjy76882@gmail.com
+    password: gtqzopfxmteqtnwn
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true
+          auth: true
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+#    username: SWteam
+#    url: jdbc:mariadb://192.168.0.57:3308/TripSNS?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+#    password: '0987654321'
+    username: admin
+    url: jdbc:mariadb://10.178.0.2:3306/tripsns?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    password: '1111'
+  thymeleaf:
+    enabled: 'true'
+    prefix: classpath:/templates/
+    cache: 'false'
+    suffix: .html
+  application:
+    name: TripSNS
+mybatis:
+  mapper-locations: mapper/*.xml
+server:
+  servlet:
+    encoding:
+      enabled: 'true'
+    session:
+      timeout: 3600
+  #JAR배포
+  port: '8080'
+#  address: 192.168.0.26
